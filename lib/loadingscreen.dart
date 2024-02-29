@@ -11,16 +11,14 @@ class _LoadingScreenState extends State<LoadingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xff188806),
       body: Center(
         child: Container(
-          height: 10000,
-          width: 500,
+          height: 62,
+          width: 201,
           decoration: BoxDecoration(
-            color: Color.fromARGB(255, 20, 188, 25),
-            // shape: BoxShape.circle,
-            image: DecorationImage(
-                image: AssetImage("asstes/image/Group 87 (1).png"), scale: 3),
-          ),
+              image: DecorationImage(
+                  image: AssetImage('assets/images/Group 87.png'))),
         ),
       ),
     );
