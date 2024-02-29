@@ -196,7 +196,7 @@ class _SigninScreenState extends State<SigninScreen> {
                       image: new DecorationImage(
                           //fit: BoxFit.fill,
                           image: new AssetImage(
-                              "assets/images/apple-logo (1) 1.png"),
+                              "asstes/image/apple-logo (1) 1.png"),
                           scale: 3))),
               Container(
                   width: 40.0,
@@ -207,7 +207,7 @@ class _SigninScreenState extends State<SigninScreen> {
                       image: new DecorationImage(
                           //fit: BoxFit.fill,
                           image:
-                              new AssetImage("assets/images/search (1) 1.png"),
+                              new AssetImage("asstes/image/search (1) 1.png"),
                           scale: 3))),
               Container(
                   width: 40.0,
@@ -217,8 +217,8 @@ class _SigninScreenState extends State<SigninScreen> {
                       border: Border.all(),
                       image: new DecorationImage(
                           //fit: BoxFit.fill,
-                          image: new AssetImage(
-                              "assets/images/facebook (3) 1 (1).png"),
+                          image:
+                              new AssetImage("asstes/image/facebook (3) 1.png"),
                           scale: 3))),
             ],
           )
