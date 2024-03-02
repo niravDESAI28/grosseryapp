@@ -26,8 +26,8 @@ class MyApp extends StatelessWidget {
       // home: const OnbodingScreen(),
       // home: const SigninScreen(),
       // home: CreateAccoutScreen(),
-      // home: VarificationScreen(),
-      home: ShoppingApp(),
+      home: VarificationScreen(),
+      // home: ShoppingApp(),
     );
   }
 }
