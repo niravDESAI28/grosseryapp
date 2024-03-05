@@ -10,20 +10,20 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  @override
   List<String> imagepaths = [
     'asstes/image/image-removebg-preview (51) 1.png',
     'asstes/image/image-removebg-preview (55) 1.png',
     'asstes/image/image-removebg-preview (53) 1.png',
-    'assets/images/image-removebg-preview (61) 1.png',
-    'assets/images/image-removebg-preview (58) 1.png',
-    'assets/images/image-removebg-preview (58) 1.png',
-    'assets/images/image-removebg-preview (59) 1.png',
-    'assets/images/image-removebg-preview (60) 1.png',
-    'assets/images/image-removebg-preview (62) 1.png',
-    'assets/images/image-removebg-preview (64) 1.png',
-    'assets/images/image-removebg-preview (65) 1.png',
-    'assets/images/image-removebg-preview (66) 1.png',
+    'asstes/image/image-removebg-preview (61) 1.png',
+    'asstes/image/image-removebg-preview (57) 2.png',
+    'asstes/image/image-removebg-preview (58) 1.png',
+    'asstes/image/image-removebg-preview (60) 1 (1).png',
+    'asstes/image/image-removebg-preview (59) 1 (1).png',
+    'asstes/image/image-removebg-preview (60) 1.png',
+    'asstes/image/image-removebg-preview (62) 1.png',
+    'asstes/image/image-removebg-preview (64) 1.png',
+    'asstes/image/image-removebg-preview (65) 1.png',
+    'asstes/image/image-removebg-preview (66) 1.png',
   ];
   List<String> productnames = 
   [
@@ -170,7 +170,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     style: GoogleFonts.inter(
                       color: Color(0xff1C0D56),
                       fontSize: 16,
-                      fontWeight: FontWeight.w500,
+                      fontWeight: FontWeight.w300,
                     ),
                   ),
                   SizedBox(
@@ -298,7 +298,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         ],
                       ),
                     ),
-                    Image.asset('assets/images/mixfruits.png')
+                    Image.asset('asstes/image/image-removebg-preview (67) 1.png')
                   ],
                 ),
               ),
