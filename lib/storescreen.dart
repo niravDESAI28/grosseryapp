@@ -63,7 +63,7 @@ class _StoreScreenState extends State<StoreScreen> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          "Store",
+                          "Store  ",
                           style: GoogleFonts.inter(
                             color: Colors.white,
                             fontSize: 25,

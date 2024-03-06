@@ -11,7 +11,7 @@ class ShopScreen extends StatefulWidget {
 
 class _ShopScreenState extends State<ShopScreen> {
   List<String> imagepath = [
-    'asstes/image/mage-removebg-preview (84) 1.png',
+    'asstes/image/image-removebg-preview (84) 1 (2).png',
     'asstes/image/image-removebg-preview (85) 1.png',
     'asstes/image/image-removebg-preview (86) 1.png',
     'asstes/image/image-removebg-preview (89) 1.png',
@@ -31,7 +31,7 @@ class _ShopScreenState extends State<ShopScreen> {
       body: Column(
         children: [
           Container(
-            height: 156,
+            height: 150,
             decoration: BoxDecoration(
                 gradient: LinearGradient(colors: [
               Color(0xff971DE2),
@@ -147,7 +147,7 @@ class _ShopScreenState extends State<ShopScreen> {
                         style: GoogleFonts.inter(
                           color: Colors.black,
                           fontSize: 14,
-                          fontWeight: FontWeight.w500,
+                          fontWeight: FontWeight.w400,
                         ),
                       ),
                       SizedBox(
@@ -158,7 +158,7 @@ class _ShopScreenState extends State<ShopScreen> {
                         style: GoogleFonts.inter(
                           color: Colors.black45,
                           fontSize: 14,
-                          fontWeight: FontWeight.w500,
+                          fontWeight: FontWeight.w400,
                         ),
                       ),
                       Row(
@@ -169,7 +169,7 @@ class _ShopScreenState extends State<ShopScreen> {
                             style: GoogleFonts.inter(
                               color: Colors.black,
                               fontSize: 14,
-                              fontWeight: FontWeight.w500,
+                              fontWeight: FontWeight.w400,
                             ),
                           ),
                           // IconButton(onPressed: (){},icon: Icon(Icons.add),),
@@ -236,7 +236,7 @@ class _ShopScreenState extends State<ShopScreen> {
                         style: GoogleFonts.inter(
                           color: Color(0xff188806),
                           fontSize: 12,
-                          fontWeight: FontWeight.w400,
+                          fontWeight: FontWeight.w300,
                         ),
                       ),
                     ],
@@ -259,7 +259,7 @@ class _ShopScreenState extends State<ShopScreen> {
                         style: GoogleFonts.inter(
                           color: Colors.black,
                           fontSize: 12,
-                          fontWeight: FontWeight.w400,
+                          fontWeight: FontWeight.w300,
                         ),
                       ),
                     ],
@@ -282,7 +282,7 @@ class _ShopScreenState extends State<ShopScreen> {
                         style: GoogleFonts.inter(
                           color: Colors.black,
                           fontSize: 12,
-                          fontWeight: FontWeight.w400,
+                          fontWeight: FontWeight.w300,
                         ),
                       ),
                     ],
@@ -305,7 +305,7 @@ class _ShopScreenState extends State<ShopScreen> {
                         style: GoogleFonts.inter(
                           color: Colors.black,
                           fontSize: 12,
-                          fontWeight: FontWeight.w400,
+                          fontWeight: FontWeight.w300,
                         ),
                       ),
                     ],
@@ -328,7 +328,7 @@ class _ShopScreenState extends State<ShopScreen> {
                         style: GoogleFonts.inter(
                           color: Colors.black,
                           fontSize: 12,
-                          fontWeight: FontWeight.w400,
+                          fontWeight: FontWeight.w300,
                         ),
                       ),
                     ],
