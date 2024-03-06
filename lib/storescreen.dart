@@ -2,20 +2,23 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class StoreScreen extends StatefulWidget {
+class StoreScreen extends StatefulWidget 
+{
   const StoreScreen({super.key});
 
   @override
   State<StoreScreen> createState() => _StoreScreenState();
 }
 
-class _StoreScreenState extends State<StoreScreen> {
-  List<String> images = [
+class _StoreScreenState extends State<StoreScreen> 
+{
+  List<String> images = 
+  [
     'asstes/image/image-removebg-preview (92) 1.png',
     'asstes/image/image-removebg-preview (93) 1.png',
     'asstes/image/image-removebg-preview (94) 1.png',
   ];
-  List<String> places = [
+  List<String> places = [     
     'E- Grocery Super  Market',
     'DealShare Mart',
     'D-Mart'
@@ -23,14 +26,16 @@ class _StoreScreenState extends State<StoreScreen> {
   List<String> options1 = ['Organic', 'Alcohol', 'Groceries'];
   List<String> options2 = ['Groceries', 'Groceries', 'Bakery Deli'];
   List<String> delivery = ['Delivery', 'Delivery', 'Delivery by 10:30pm'];
-  List<String> pickup = [
+  List<String> pickup = 
+  [
     'pickup available',
     'pickup available',
     'pickup available'
   ];
   List<String> kms = ['7.5 mi away', '7.2 mi away', '9.5 mi away'];
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) 
+  {
     return Scaffold(
       body: Column(
         children: [
@@ -52,7 +57,7 @@ class _StoreScreenState extends State<StoreScreen> {
                       padding: const EdgeInsets.only(left: 20.0),
                       child: Icon(
                         size: 30,
-                        Icons.arrow_back_rounded,
+                        Icons.arrow_back,
                         color: Colors.white,
                       ),
                     ),
@@ -63,7 +68,7 @@ class _StoreScreenState extends State<StoreScreen> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          "Store  ",
+                          "Store",
                           style: GoogleFonts.inter(
                             color: Colors.white,
                             fontSize: 25,
@@ -110,7 +115,7 @@ class _StoreScreenState extends State<StoreScreen> {
                         shape: BoxShape.circle,
                       ),
                       child: Icon(
-                        Icons.menu,
+                        Icons.menu_rounded,
                         size: 30,
                         color: Colors.white,
                       ),

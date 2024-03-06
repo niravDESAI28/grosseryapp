@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:grosseryapp/createaccount.dart';
+import 'package:grosseryapp/deliveryscreen.dart';
 import 'package:grosseryapp/homescreen.dart';
 import 'package:grosseryapp/loadingscreen.dart';
 import 'package:grosseryapp/onbordingscreen.dart';
@@ -32,8 +33,9 @@ class MyApp extends StatelessWidget {
       // home: VarificationScreen(),
       // home: HomeScreen(),
       // home: ShoppingApp(),
-      home: StoreScreen(),
+      // home: StoreScreen(),
       // home: ShopScreen(),
+      home: DeliveryScreen(),
     );
   }
 }
