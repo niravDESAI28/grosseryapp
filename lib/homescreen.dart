@@ -417,7 +417,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           color: Colors.black,
                         ),
                         Text(
-                          "Profile",
+                          "Profile",  
                           style: GoogleFonts.inter(
                             color: Colors.black,
                             fontSize: 12,

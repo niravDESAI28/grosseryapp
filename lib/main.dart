@@ -36,8 +36,8 @@ class MyApp extends StatelessWidget {
       // home: ShoppingApp(),
       // home: StoreScreen(),
       // home: ShopScreen(),
-      // home: DeliveryScreen(),
-      home: MapViewScreen(),
+      home: DeliveryScreen(),
+      // home: MapViewScreen(),
     );
   }
 }

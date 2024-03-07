@@ -57,16 +57,26 @@ class DeliveryScreen extends StatelessWidget {
               ),
             ),
             ListTile(
-              title: Text('Item 1'),
-              trailing: Text('\$10'),
+              title: Text('Bittersweet Choc...'),
+              trailing: Text('\$120'),
             ),
             ListTile(
-              title: Text('Item 2'),
-              trailing: Text('\$15'),
+              title: Text('Egg box'),
+              trailing: Text('\$80'),
             ),
             ListTile(
-              title: Text('Item 3'),
-              trailing: Text('\$20'),
+              title: Text('Vegetable oil butt...'),
+              trailing: Text('\$120'),
+            ),
+            Divider(),
+             ListTile(
+              title: Text('Kanguru energy dr...'),
+              trailing: Text('\$80'),
+            ),
+            Divider(),
+              ListTile(
+              title: Text('Thousand island ...'),
+              trailing: Text('\$80'),
             ),
             Divider(),
             ListTile(
@@ -77,7 +87,7 @@ class DeliveryScreen extends StatelessWidget {
                 ),
               ),
               trailing: Text(
-                '\$45',
+                '5 item * \$480    Proceed To Pay ⇛',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                 ),
