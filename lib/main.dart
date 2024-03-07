@@ -3,6 +3,7 @@ import 'package:grosseryapp/createaccount.dart';
 import 'package:grosseryapp/deliveryscreen.dart';
 import 'package:grosseryapp/homescreen.dart';
 import 'package:grosseryapp/loadingscreen.dart';
+import 'package:grosseryapp/map_pass.dart';
 import 'package:grosseryapp/onbordingscreen.dart';
 import 'package:grosseryapp/page.dart';
 import 'package:grosseryapp/shopscreen.dart';
@@ -35,7 +36,8 @@ class MyApp extends StatelessWidget {
       // home: ShoppingApp(),
       // home: StoreScreen(),
       // home: ShopScreen(),
-      home: DeliveryScreen(),
+      // home: DeliveryScreen(),
+      home: MapViewScreen(),
     );
   }
 }
