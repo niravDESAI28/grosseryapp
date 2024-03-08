@@ -12,7 +12,7 @@ class DeliveryScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Delivery Screen'),
+        title: Text('Delivery in 10 Minutes'),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -21,7 +21,7 @@ class DeliveryScreen extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Text(
-                'Delivery in 10 Minutes',
+                '5 items',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
@@ -109,8 +109,3 @@ class DeliveryScreen extends StatelessWidget {
   }
 }
 
-// void main() {
-//   runApp(MaterialApp(
-//     home: DeliveryScreen(),
-//   ));
-// }
