@@ -1,5 +1,12 @@
 import 'package:flutter/material.dart';
 
+void main() {
+  runApp(MaterialApp(
+    home: ShoppingProfilePage(),
+  ));
+}
+
+
 class ShoppingProfilePage extends StatefulWidget {
   @override
   _ShoppingProfilePageState createState() => _ShoppingProfilePageState();
@@ -24,11 +31,11 @@ class _ShoppingProfilePageState extends State<ShoppingProfilePage> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            // SizedBox(height: 10),
-            // Text('Name: John Doe'),
-            // Text('Email: john.doe@example.com'),
-            // Text('Address: 123 Main Street'),
-            // SizedBox(height: 20),
+            SizedBox(height: 10),
+            Text('Name: John Doe'),
+            Text('Email: john.doe@example.com'),
+            Text('Address: 123 Main Street'),
+            SizedBox(height: 20),
             Text(
               'My Addresses',
               style: TextStyle(
@@ -60,8 +67,3 @@ class _ShoppingProfilePageState extends State<ShoppingProfilePage> {
   }
 }
 
-void main() {
-  runApp(MaterialApp(
-    home: ShoppingProfilePage(),
-  ));
-}
