@@ -89,7 +89,7 @@ class DeliveryScreen extends StatelessWidget {
                 ),
               ),
               trailing: Text(
-                '5 item * \$480    Proceed To Pay ⇛',
+                '480',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                 ),
@@ -101,7 +101,8 @@ class DeliveryScreen extends StatelessWidget {
                 onPressed: () {
                   // Handle the button press, e.g., navigate to a confirmation screen
                 },
-                child: Text('Place Order'),
+
+                child: Text('5 item * \$480    Proceed To Pay ⇛'),
               ),
             ),
           ],
@@ -110,4 +111,3 @@ class DeliveryScreen extends StatelessWidget {
     );
   }
 }
-

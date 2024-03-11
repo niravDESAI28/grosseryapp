@@ -38,10 +38,9 @@ class MyApp extends StatelessWidget {
       // home: ShoppingApp(),
       // home: StoreScreen(),
       // home: ShopScreen(),
-      // home: DeliveryScreen(),
+      home: DeliveryScreen(),
       // home: MapViewScreen(),
       // home: ShoppingProfilePage(),
-      home: OrderProfileScreen(),
     );
   }
 }
