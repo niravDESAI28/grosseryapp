@@ -6,6 +6,7 @@ import 'package:grosseryapp/loadingscreen.dart';
 import 'package:grosseryapp/map_pass.dart';
 import 'package:grosseryapp/onbordingscreen.dart';
 import 'package:grosseryapp/page.dart';
+import 'package:grosseryapp/paymentscreenscreen.dart';
 import 'package:grosseryapp/profilescreen.dart';
 import 'package:grosseryapp/profilrscreen.dart';
 import 'package:grosseryapp/shopscreen.dart';
@@ -41,6 +42,7 @@ class MyApp extends StatelessWidget {
       home: DeliveryScreen(),
       // home: MapViewScreen(),
       // home: ShoppingProfilePage(),
+      // home: PaymentMethodScreen(),
     );
   }
 }
