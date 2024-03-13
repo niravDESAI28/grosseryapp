@@ -250,7 +250,7 @@ class _CreateAccoutScreenState extends State<CreateAccoutScreen> {
                         image: new DecorationImage(
                             //fit: BoxFit.fill,
                             image: new AssetImage(
-                                "assets/images/apple-logo (1) 1.png"),
+                                "asstes\image\apple-logo (1) 1.png"),
                             scale: 3))),
                 Container(
                     width: 42.0,
@@ -261,7 +261,7 @@ class _CreateAccoutScreenState extends State<CreateAccoutScreen> {
                         image: new DecorationImage(
                             //fit: BoxFit.fill,
                             image: new AssetImage(
-                                "assets/images/search (1) 1.png"),
+                                "asstes/image/search (1) 1.png"),
                             scale: 3))),
                 Container(
                     width: 42.0,
