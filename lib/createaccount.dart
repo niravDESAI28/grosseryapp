@@ -207,7 +207,7 @@ class _CreateAccoutScreenState extends State<CreateAccoutScreen> {
                                 borderRadius: BorderRadius.circular(7))),
                         child: Text(
                           "SIGN IN",
-                          style: GoogleFonts.inter(
+                          style: GoogleFonts.inter  (
                               color: Colors.white,
                               fontSize: 18,
                               fontWeight: FontWeight.w500),
@@ -250,7 +250,7 @@ class _CreateAccoutScreenState extends State<CreateAccoutScreen> {
                         image: new DecorationImage(
                             //fit: BoxFit.fill,
                             image: new AssetImage(
-                                "asstes\image\apple-logo (1) 1.png"),
+                                "asstes/image/apple-logo (1) 1 (2).png"),
                             scale: 3))),
                 Container(
                     width: 42.0,
@@ -272,12 +272,12 @@ class _CreateAccoutScreenState extends State<CreateAccoutScreen> {
                         image: new DecorationImage(
                             //fit: BoxFit.fill,
                             image: new AssetImage(
-                                "assets/images/facebook (3) 1 (1).png"),
+                                "asstes/image/facebook (3) 1.png"),
                             scale: 3))),
               ],
             ),
             SizedBox(
-              height: 38,
+              height: 25,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,

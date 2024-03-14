@@ -64,7 +64,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       Padding(
                         padding: const EdgeInsets.only(left: 30.0),
                         child: Icon(
-                          size: 30,
+                          size: 10,
                           Icons.schedule,
                           color: Colors.white,
                         ),
@@ -163,7 +163,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ),
                   SizedBox(
-                    width: 100,
+                    width: 80,
                   ),
                   Text(
                     "View All",

@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
       // home: const LoadingScreen(),
       // home: const OnbodingScreen(),
       // home: const SigninScreen(),
-      // home: CreateAccoutScreen(),
+      home: CreateAccoutScreen(),
       // home: VarificationScreen(),
       // home: HomeScreen(),
       // home: ShoppingApp(),
@@ -46,9 +46,6 @@ class MyApp extends StatelessWidget {
       // home: PaymentMethodScreen(),
       // home: Screen9State(),
       // home: AddToCartScreenState(),
-      
-     
-      
     );
   }
 }
