@@ -217,7 +217,7 @@ class _CreateAccoutScreenState extends State<CreateAccoutScreen> {
               ),
             ),
             SizedBox(
-              height: 36,
+              height: 25,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -236,7 +236,7 @@ class _CreateAccoutScreenState extends State<CreateAccoutScreen> {
               ],
             ),
             SizedBox(
-              height: 52,
+              height: 15,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,

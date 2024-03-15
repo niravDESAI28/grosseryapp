@@ -17,8 +17,14 @@ class _StoreScreenState extends State<StoreScreen>
     'asstes/image/image-removebg-preview (92) 1.png',
     'asstes/image/image-removebg-preview (93) 1.png',
     'asstes/image/image-removebg-preview (94) 1.png',
+    'asstes/image/image-removebg-preview (92) 1.png',
+    'asstes/image/image-removebg-preview (93) 1.png',
+    'asstes/image/image-removebg-preview (94) 1.png',  
   ];
   List<String> places = [     
+    'E- Grocery Super  Market',
+    'DealShare Mart',
+    'D-Mart'
     'E- Grocery Super  Market',
     'DealShare Mart',
     'D-Mart'
@@ -27,6 +33,7 @@ class _StoreScreenState extends State<StoreScreen>
   List<String> options2 = ['Groceries', 'Groceries', 'Bakery Deli'];
   List<String> delivery = ['Delivery', 'Delivery', 'Delivery by 10:30pm'];
   List<String> pickup = 
+  
   [
     'pickup available',
     'pickup available',
@@ -107,6 +114,7 @@ class _StoreScreenState extends State<StoreScreen>
                     SizedBox(
                       width: 10,
                     ),
+                    
                     Container(
                       height:35,
                       width:35,
@@ -194,6 +202,7 @@ class _StoreScreenState extends State<StoreScreen>
                                     ),
                                   ],
                                 ),
+                                
                                 SizedBox(
                                   height: 20,
                                 ),
