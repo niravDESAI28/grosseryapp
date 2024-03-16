@@ -7,7 +7,7 @@ import 'package:grosseryapp/loadingscreen.dart';
 import 'package:grosseryapp/map_pass.dart';
 import 'package:grosseryapp/onbordingscreen.dart';
 import 'package:grosseryapp/page.dart';
-import 'package:grosseryapp/paymentscreenscreen.dart';
+import 'package:grosseryapp/payment/paymentscreen.dart';
 import 'package:grosseryapp/profilescreen.dart';
 import 'package:grosseryapp/profilrscreen.dart';
 import 'package:grosseryapp/shopscreen.dart';
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Flutter Demo',  
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
@@ -36,15 +36,17 @@ class MyApp extends StatelessWidget {
       // home: const SigninScreen(),
       // home: CreateAccoutScreen(),
       // home: VarificationScreen(),
-      // home: HomeScreen(),
+      home: HomeScreen(),
       // home: ShoppingApp(),
-      home: StoreScreen(),
+      // home: StoreScreen(),
       // home: ShopScreen(),
       // home: DeliveryScreen(),
       // home: MapViewScreen(),
       // home: ShoppingProfilePage(),
       // home: PaymentMethodScreen(),
       // home: Screen9State(),
+      // home: PaymentScreenState(),
+    
     );
   }
 }

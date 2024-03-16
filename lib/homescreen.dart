@@ -17,13 +17,13 @@ class _HomeScreenState extends State<HomeScreen> {
     'asstes/image/image-removebg-preview (61) 1.png',
     'asstes/image/image-removebg-preview (57) 2.png',
     'asstes/image/image-removebg-preview (58) 1.png',
-    'asstes/image/image-removebg-preview (60) 1 (1).png',
-    'asstes/image/image-removebg-preview (59) 1 (1).png',
+    'asstes/image/image-removebg-preview (60) 1.png',
+    'asstes/image/image-removebg-preview (59) 1.png',
     'asstes/image/image-removebg-preview (60) 1.png',
     'asstes/image/image-removebg-preview (62) 1.png',
     'asstes/image/image-removebg-preview (64) 1.png',
     'asstes/image/image-removebg-preview (65) 1.png',
-    'asstes/image/image-removebg-preview (66) 1.png',
+    'asstes/image/image-removebg-preview (66) 1.png', 
   ];
   List<String> productnames = 
   [
@@ -51,7 +51,7 @@ class _HomeScreenState extends State<HomeScreen> {
               height: 156,
               decoration: BoxDecoration(
                   gradient: LinearGradient(colors: [
-                Color(0xff971DE2),
+                Color(0xff971DE2),  
                 Color(0xffFFE86D),
               ])),
               child: Column(
