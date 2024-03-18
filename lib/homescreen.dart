@@ -28,20 +28,20 @@ class _HomeScreenState extends State<HomeScreen> {
   List<String> productnames = 
   [
     'Dairy, Br...',
-    'Snack & ...',
-    'Bakery &...',
+    'Snack & ....',
+    'Bakery &....',
     'Instant F...',
     'Tea, Coff...',
     'Fruits & ...',
     'Cold Drin...',
-    'Meat',
-    'Baby Care',
+    'Meat........',
+    'Baby Care...',
     'Cleaning ...',
-    'Pet Care',
+    'Pet Care....',
     'Atta, Ric...',
   ];
   Widget build(BuildContext context) {
-    double height = MediaQuery.of(context).size.height;
+    // double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
     return Scaffold(
       body: SingleChildScrollView(
@@ -118,19 +118,22 @@ class _HomeScreenState extends State<HomeScreen> {
                         decoration: BoxDecoration(
                           color: Colors.black38,
                           shape: BoxShape.circle,
-                        ),
+                        ),    
                         child: Icon(
                           Icons.menu,
                           size: 30,
                           color: Colors.white,
-                        ),
+                        
+                         ),
                       ),
                     ],
                   ),
-                  SizedBox(
+                  SizedBox
+                  (
                     height: 18,
                   ),
-                  Padding(
+                  Padding
+                  (
                     padding: const EdgeInsets.symmetric(horizontal: 25.0),
                     child: Container(
                       color: Colors.white,
