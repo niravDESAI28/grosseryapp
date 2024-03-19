@@ -276,10 +276,12 @@ class _CreateAccoutScreenState extends State<CreateAccoutScreen> {
                             scale: 3))),
               ],
             ),
-            SizedBox(
+            SizedBox
+            (
               height: 25,
             ),
-            Row(
+            Row
+            (
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
@@ -289,10 +291,12 @@ class _CreateAccoutScreenState extends State<CreateAccoutScreen> {
                       fontSize: 14,
                       fontWeight: FontWeight.w400),
                 ),
-                SizedBox(
+                SizedBox
+                (
                   width: 10,
                 ),
-                InkWell(
+                InkWell
+                (
                   onTap: () {},
                   child: Text(
                     'Sign In',
